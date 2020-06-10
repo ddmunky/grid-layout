@@ -1,10 +1,10 @@
-import Header from './components/Header';
+import Content from './components/Content';
 
 function App() {
     const template = document.createElement('template');
     template.innerHTML = `
     <div class="container">
-      ${Header()}
+    ${Content()}
     </div>
   `;
     // Return a new node from template
